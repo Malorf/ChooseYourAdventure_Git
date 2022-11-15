@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Slot
+  - Slots
+  - Hotbar
+  - Canvas
+  - Tooltip
+  - EquipmentSystem
+  - CraftSystem
+  - Panel
+  - Timer
+  - MainInventory
+  - DraggingItem
+  - ResultSlot
+  - Item
+  - ItemIcon
+  - Enemy
+  - Fire
+  - EnemyWolf
+  - EnemySpider
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - Force
+  - Water
+  - UI
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
