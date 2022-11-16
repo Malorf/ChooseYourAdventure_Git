@@ -6912,7 +6912,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e3de7053f0281c2479e85af1e3c7b658, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lobbySceneName: Intro
+  lobbySceneName: ProperGame
 --- !u!4 &877899341
 Transform:
   m_ObjectHideFlags: 0
