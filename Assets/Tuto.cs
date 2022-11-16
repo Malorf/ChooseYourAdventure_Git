@@ -26,7 +26,7 @@ public class Tuto : MonoBehaviour
         if (Conversation)
         {
             lastAnswer = GameManager.PlayerAnswer;
-            if (lastAnswer == Constructeur.NameCharacter + ": blanc")
+            if (lastAnswer == Constructeur.NameCharacter + ": améliorer")
             {
                 panelTuto.SetActive(false);
                 GameManager.messageList.Clear();

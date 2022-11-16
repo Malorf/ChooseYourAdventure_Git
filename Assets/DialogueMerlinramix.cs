@@ -179,7 +179,7 @@ public class DialogueMerlinramix : MonoBehaviour
                     StartCoroutine(EndQuestChancre());
                 }
             }
-            if ((lastAnswer == (Constructeur.NameCharacter + ": oui")) || (lastAnswer == (Constructeur.NameCharacter + ": apprendre")))
+            if (lastAnswer == (Constructeur.NameCharacter + ": apprendre"))
             {
                 if (CharacterMotor.maladieIsUp == false)
                 {
@@ -203,7 +203,6 @@ public class DialogueMerlinramix : MonoBehaviour
                         {
                             SagesseInf1.GetComponent<TextMeshProUGUI>().enabled = true;
                             PNJDial.GetComponent<TextMeshProUGUI>().enabled = false;
-                            SagesseInf1.GetComponent<TextMeshProUGUI>().enabled = false;
                             SagesseSup1.GetComponent<TextMeshProUGUI>().enabled = false;
                             HerbesNF.GetComponent<TextMeshProUGUI>().enabled = false;
                             HerbesF.GetComponent<TextMeshProUGUI>().enabled = false;

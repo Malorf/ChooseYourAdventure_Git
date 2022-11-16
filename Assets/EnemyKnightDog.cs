@@ -40,7 +40,7 @@ public class EnemyKnightDog : EnemyAi
             // On calcule la distance entre l'ennemi et sa position de base
             DistanceBase = Vector3.Distance(basePositions, transform.position);
 
-            // Quand l'ennemi est loin = idle
+            // Quand on s'enfuit après avoir tapé l'ennemi
             if (Distance > chaseRange * 2)
             {
                 if (hpEnemy != hpMax)
@@ -50,6 +50,7 @@ public class EnemyKnightDog : EnemyAi
                     BackBase();
                 }
             }
+            //Patrouille de base du monstre
             if (Distance > chaseRange)
             {
                 if (hpEnemy == hpMax)

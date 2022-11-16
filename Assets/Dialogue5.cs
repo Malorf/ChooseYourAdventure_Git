@@ -195,7 +195,7 @@ public class Dialogue5 : EnemyAi
     }
     protected override void BackBase()
     {
-        animations.Play("RunForward");
+        animations.Play("Idle");
         agent.destination = basePositions;
     }
     void follow ()
@@ -244,7 +244,7 @@ public class Dialogue5 : EnemyAi
         collider.radius = 1;
         collider.isTrigger = false;
         agent.stoppingDistance = 1;
-        if (Distance >= 2* chaseRange)
+        if (Distance >= chaseRange)
         {
             backgroundHp.enabled = false;
             hpImage.enabled = false;

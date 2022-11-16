@@ -232,7 +232,10 @@ public class Dialogue4 : MonoBehaviour
             if (lastAnswer == Constructeur.NameCharacter + ": chienvaliers")
             {
                 // cinématique
-                AnimCam1.SetBool("CamChien1Activate", true);
+                if (AnimCam1 != null)
+                {
+                    AnimCam1.SetBool("CamChien1Activate", true);
+                }     
                 AnimDoorL.SetBool("OpenDoorL", true);
                 AnimDoorR.SetBool("OpenDoorR", true);
                 if (QuestJailIsUp != true)
