@@ -8,7 +8,7 @@ using UnityEngine.SceneManagement;
 public class Constructeur : MonoBehaviour
 {
     public static string NameCharacter = "player1"; //Récupérer le nom du joueur
-    public string lobbySceneName;
+    private string lobbySceneName = "ProperGame";
     public static int ForceConstru;
     public static int EnduranceConstru;
     public static int IntelligenceConstru;
