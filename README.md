@@ -2,7 +2,7 @@
 
 Thanks for reading this, you can check my portfolio right here :
 
-ChooseYourAdventure is available on itch.io : 
+ChooseYourAdventure is available on itch.io : https://malorf.itch.io/chooseyouradventure
 
 ## $I.Synopsis$
 
