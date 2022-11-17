@@ -1,4 +1,4 @@
-# ChooseYourAventure_Git
+# ChooseYourAdventure_Git
 This project runs on Unity3D
 
 Thanks for reading this, biggest parts of my code are in the following paths :
