@@ -16,7 +16,7 @@ public class Dialogue1 : MonoBehaviour
     public TextMeshProUGUI TextFin;
     public GameObject Panel;
     public string lastAnswer;
-    public static float force1 = 0;
+    public static int force1 = 0;
     void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.tag == "Player")
@@ -77,7 +77,7 @@ public class Dialogue1 : MonoBehaviour
                     PNJTuto.GetComponent<TextMeshProUGUI>().enabled = false;
                     if (UI.ForceTotal >= 30)
                     {
-                        PlayerInventory.currentDamage += 5;
+                        PlayerInventory.currentDamage += 7;
                         ForceSup.GetComponent<TextMeshProUGUI>().enabled = true;
                         Debug.Log("les dégats sont à " + PlayerInventory.currentDamage);
                         force1 = 1;

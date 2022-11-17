@@ -346,7 +346,7 @@ public class DialogueTavernier : MonoBehaviour
                         TextFin.GetComponent<TextMeshProUGUI>().enabled = false;
                         if (UI.ForceTotal >= 63)
                         {
-                            PlayerInventory.currentDamage += 10;
+                            PlayerInventory.currentDamage += 8;
                             ForceSup1.GetComponent<TextMeshProUGUI>().enabled = true;
                             force2 = 0;
                             Conversation = false;

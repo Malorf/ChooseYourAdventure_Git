@@ -6,7 +6,7 @@ using TMPro;
 public class DialogueMerlinramix : MonoBehaviour
 {
     public static int XpQuêteHerbes = 300;
-    public static int XpQuêtePotion = 520;
+    public static int XpQuêtePotion = 850;
     public static bool QuestHerbes = false;
     public static bool QuestPotion = false;
     public static bool Conversation = false;

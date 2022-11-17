@@ -5,7 +5,7 @@ using UnityEngine.UI;
 using TMPro;
 public class DialogueBlackSmith : MonoBehaviour
 {
-    public static int XpQuêteChienvalier = 420;
+    public static int XpQuêteChienvalier = 720;
     public static bool QuestChienvalier = false;
     public static bool Conversation = false;
     public TextMeshProUGUI PNJDial;

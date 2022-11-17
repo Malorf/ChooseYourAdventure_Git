@@ -62,7 +62,6 @@ public class DialogueArchidruidesse : MonoBehaviour
                     PNJName.GetComponent<TextMeshProUGUI>().enabled = false;
                     Maire.GetComponent<TextMeshProUGUI>().enabled = false;
                     Benediction.GetComponent<TextMeshProUGUI>().enabled = true;
-                    buff1 = false;
                     Conversation = false;
                 }
             }

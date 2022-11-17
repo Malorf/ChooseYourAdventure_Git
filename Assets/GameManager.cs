@@ -111,7 +111,7 @@ public class GameManager : MonoBehaviour
         }
         if (PlayerAnswer == "TutoIsDone")
         {
-            SendMessageToChat("Félicitations Soldat ! Parlez aux camarades devant vous et bonne aventure !" + chatBox.text, Message.MessageType.info);
+            SendMessageToChat("Félicitations Soldat ! Parlez aux camarades devant vous et bonne aventure ! Appuyer sur échap sauvegarde la partie" + chatBox.text, Message.MessageType.info);
             chatBox.text = "";
         }
     }

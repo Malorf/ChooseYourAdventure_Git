@@ -9,7 +9,7 @@ public class Dialogue4 : MonoBehaviour
 {
     public static int XpQuêteSpider = 250;
     public static int XpQuêteSpiderQueen = 300;
-    public static int XpQuêteJail = 500;
+    public static int XpQuêteJail = 700;
     public static bool Conversation = false;
     public TextMeshProUGUI PNJ4;
     public TextMeshProUGUI PNJName;

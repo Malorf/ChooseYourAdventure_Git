@@ -33,7 +33,7 @@ public class PlayerInventory : MonoBehaviour
     public float currentHealth = 100;
     public float currentMana = 100;
     public static float currentDamage = 10;
-    public static float currentArmor = 0;
+    public static float currentArmor = (int)(0.1f * UI.EnduranceTotal);
 
     public static float pointManaIncreasePersec;
     public static float pointHPIncreasePersec;
@@ -194,6 +194,7 @@ public class PlayerInventory : MonoBehaviour
 
         experienceBar = GameObject.Find("currentXp").GetComponent<Image>();
         playerLevelText = GameObject.Find("NiveauValue").GetComponent<TextMeshProUGUI>();
+        playerLevelText.text = "" + playerLevel;
 
         audios = GetComponent<AudioSource>();
 
@@ -327,8 +328,8 @@ public class PlayerInventory : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        pointManaIncreasePersec = ((0.02f * UI.SagesseTotal) + RegenFire.fireRegen);
-        pointHPIncreasePersec = ((0.02f * UI.CourageTotal) + RegenFire.fireRegen);
+        pointManaIncreasePersec = ((0.02f * UI.SagesseTotal + 0.02f * UI.IntelligenceTotal) + RegenFire.fireRegen);
+        pointHPIncreasePersec = ((0.02f * UI.CourageTotal + 0.02f * UI.IntelligenceTotal) + RegenFire.fireRegen);
         Hp.text = (int)currentHealth + "/" + maxHealth;
         Mana.text = (int)currentMana + "/" + maxMana;
         Xp.text = (int)currentXp + "/" + (int)maxXp;

@@ -4750,7 +4750,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 67ca14b745077f9478e3c32b5ce6fcb6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spellDamage: 25
+  spellDamage: 30
   timeDestroy: 1.5
 --- !u!135 &-7441959141624942004
 SphereCollider:
