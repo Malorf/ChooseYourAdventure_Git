@@ -1,6 +1,6 @@
 # ChooseYourAdventure_Git
 
-Thanks for reading this, you can check my portfolio right here :
+Thanks for reading this, you can check my portfolio right here : https://malorf.github.io/
 
 ChooseYourAdventure is available on itch.io : https://malorf.itch.io/chooseyouradventure
 
